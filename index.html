@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tutorial html Rollingcode" />
+    <meta name="description" content="Agregar una descripcion del sitio" />
+    <meta name="keywords" content="tutorial, html, desarrollo web" />
+
+    <title>RollingCode</title>
+
+    <link rel="icon" href="img/icono.png" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Probando Formularios</h1>
+    </header>
+
+    <section>
+      <h3>Formulario</h3>
+      <br />
+
+      <form>
+        <div>
+          <label for="texto">Entrada de texto</label>
+          <input
+            id="texto"
+            type="text"
+            placeholder="Entrada de texto"
+            value=""
+            required
+          />
+        </div>
+        <div>
+          <label for="correo">Entrada de correo</label>
+          <input
+            id="correo"
+            type="email"
+            placeholder="Entrada de correo"
+            value=""
+            required
+          />
+        </div>
+
+        <div>
+          <label for="pass">Entrada de contraseña</label>
+          <input
+            id="pass"
+            type="password"
+            placeholder="Entrada de contraseña"
+            value=""
+            required
+          />
+        </div>
+
+        <div>
+          <input type="number" value="1" min="0" max="3" />
+        </div>
+
+        <select>
+          <option>Opcion 1</option>
+          <option>Opcion 2</option>
+          <option>Opcion 3</option>
+        </select>
+
+        <div>
+          <input type="checkbox" id="rojo" /><label for="rojo">Rojo</label>
+          <input type="checkbox" id="amarillo" /><label for="amarillo"
+            >Amarillo</label
+          >
+          <input type="checkbox" id="verde" /><label for="verde">Verde</label>
+        </div>
+        <div>
+          <input type="radio" id="blanco" name="radio" checked /><label
+            for="blanco"
+            >Blanco</label
+          >
+          <input type="radio" id="negro" name="radio" /><label for="negro"
+            >Negro</label
+          >
+        </div>
+
+        <input type="submit" value="Enviar Formulario" />
+      </form>
+    </section>
+  </body>
+</html>
